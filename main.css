@@ -8,7 +8,13 @@
   top: 0;
   left: 0;
 }
-
+body {
+  font-family: "Oswald", sans-serif;
+}
+.content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* Logo */
 #header-img {
   width: 250px;
@@ -22,6 +28,32 @@
 .list--item {
   margin: 10px;
 }
-
+.hero--title {
+  display: flex;
+  justify-content: center;
+}
+#hero h1 {
+  font-size: 30px;
+}
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content--title {
+  display: flex;
+  justify-content: center;
+}
+#form {
+  padding-bottom: 50px;
+}
+.copyright {
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 600px) {
 }

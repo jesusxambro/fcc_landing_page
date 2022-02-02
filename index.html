@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+    rel="stylesheet"
+  />
   <head>
     <link rel="stylesheet" type="text/css" href="main.css" />
 
@@ -17,18 +23,24 @@
 
       <nav id="nav-bar">
         <ul class="navbar--list">
-          <li class="list--item"><a class="nav-link" href="#about">About</a></li>
-          <li class="list--item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li class="list--item"><a class="nav-link" href="#packages">Packages</a></li>
+          <li class="list--item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="list--item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="list--item">
+            <a class="nav-link" href="#packages">Packages</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <div class="container"></div>
     <section id="hero">
-      <h2>Dallas based, Family Photographer</h2>
+      <h1 class="content--title">Jesus Ambro Photography</h1>
 
       <iframe
+        class="hero--video"
         id="video"
         width="560"
         height="315"
@@ -39,7 +51,50 @@
         allowfullscreen
       ></iframe>
     </section>
-    <section id="contact-form">
+    <section id="about" class="content">
+      <h2 class="hero--title">Dallas-based, Family Photographer</h2>
+
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged.
+      </p>
+    </section>
+    <section id="portfolio" class="content">
+      <h2 class="content--title">Portfolio</h2>
+      <p>
+        was popularised in the 1960s with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of
+      </p>
+    </section>
+    <section id="packages" class="content">
+      <h2 class="content--title">Packages</h2>
+      <p>
+        was popularised in the 1960s with the release of Letraset sheets
+        containing Lorem Ipsum passages, and more recently with desktop
+        publishing software like Aldus PageMaker including versions of Lorem
+        Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        of
+      </p>
+    </section>
+    <h2 class="content--title">Contact Us</h2>
+    <section class="content--title" id="contact-form">
       <form id="form" action="https://www.freecodecamp.com/email-submit">
         <input
           id="email"
@@ -50,42 +105,7 @@
         <input type="submit" id="submit" label="Submit" value="Submit" />
       </form>
     </section>
-    <section id="about"></section>
-    <section id="portfolio"></section>
-    <section id="packages"></section>
-
-    <h1>Jesus Ambro Photography</h1>
-
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-      Lorem Ipsum has been the industry's standard dummy text ever since the
-      1500s, when an unknown printer took a galley of type and scrambled it to
-      make a type specimen book. It has survived not only five centuries, but
-      also the leap into electronic typesetting, remaining essentially
-      unchanged. 
-      
-      <p></p> was popularised in the 1960s with the release of Letraset
-      sheets containing Lorem Ipsum passages, and more recently with desktop
-      publishing software like Aldus PageMaker including versions of Lorem
-      Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a type specimen book. It has survived not only five
-      centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release of
-      <p> </p>
-      Letraset sheets containing Lorem Ipsum passages, and more recently with
-      desktop publishing software like Aldus PageMaker including versions of
-      Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
-      typesetting industry. Lorem Ipsum has been the industry's standard dummy
-      text ever since the 1500s, when an unknown printer took a galley of type
-      and scrambled it to make a type specimen book. It has survived not only
-      five centuries, but also the leap into electronic typesetting, remaining
-      essentially unchanged. It was popularised in the 1960s with the release of
-      Letraset sheets containing Lorem Ipsum passages, and more recently with
-      desktop publishing software like Aldus PageMaker including versions of
-      Lorem Ipsum.
-    </p>
+    <p class="copyright">Copyright (c) 2022 Example</p>
     <!--[if lt IE 7]>
       <p class="browsehappy">
         You are using an <strong>outdated</strong> browser. Please
