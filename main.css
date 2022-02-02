@@ -1,17 +1,20 @@
 
 #header{
     display: flex;
+    border: 1px solid;
 }
 
-
-#header-img{
+/* Logo */
+#header-img{ 
     width: 250px;
     display: flex;
+    border: 1px solid;
     justify-content: flex-start;
 }
 #nav-bar{
     display: flex;
     justify-content: flex-end;
+    border: 1px solid;
 
 }
 @media (max-width: 600px) {
